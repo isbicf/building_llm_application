@@ -21,5 +21,20 @@ python -m pip install --upgrade pip
 or
 pip install --upgrade pip
 ```
+- Get OpenAI API Key
+  1. Go to: https://platform.openai.com/signup. Sign up with your email, Google, or Microsoft account
+  2. Visit https://platform.openai.com/account/api-keys. Click "View API Keys"
+  3. Give it a name (optional) and click “Create secret key”. Copy the key **immediately** – you won’t be able to see it again
+- Install packages
+  - Part 1
+  ```
+  pip install langchain
+  pip install langchain-community
+  pip install langchain-openai
+  pip install beautifulsoup4
+  pip install sentence-transformers
+  ```
+
+# Trouble Shooting
 
 
